@@ -1,0 +1,72 @@
+.about {
+  padding: 80px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.about-badge {
+  color: #b100a1;
+  font-weight: 500;
+  font-size: 0.95rem;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.about-image img {
+  width: 480px;
+  max-width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.about-text {
+  max-width: 480px;
+  text-align: left;
+}
+
+.about-text p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 24px;
+}
+
+.about-btn {
+  background-color: #b100a1;
+  color: #fff;
+  border: none;
+  padding: 12px 22px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.about-btn:hover {
+  background-color: #930087;
+}
+
+.about-btn .arrow {
+  margin-left: 8px;
+  font-weight: bold;
+}

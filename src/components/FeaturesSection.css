@@ -1,0 +1,66 @@
+.features {
+  background-color: #fff;
+  padding: 80px 20px;
+}
+
+.features-container {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.features-left {
+  flex: 1;
+  min-width: 300px;
+  margin-top: 2rem;
+}
+
+.features-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.feature-point {
+  margin-bottom: 30px;
+}
+
+.feature-point h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.feature-point p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.features-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 20px;
+  /* horizontal spacing */
+  row-gap: 20px;
+  /* vertical spacing */
+  justify-content: center;
+}
+
+.image-grid img {
+  width: 200px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.features-images-adjust {
+  margin-top: -2rem;
+}

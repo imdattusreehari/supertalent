@@ -8,7 +8,7 @@ function Navbar() {
         <div className="logo">SuperTalent</div>
 
         <nav className="nav-links">
-          <a href="/" className="active">Home</a>
+          <a href="/">Home</a>
           <a href="/pages/portfolio">Portfolio</a>
           <a href="/pages/portfolio">Resources</a>
           <a href="/pages/portfolio">About Us</a>

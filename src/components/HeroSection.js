@@ -6,7 +6,7 @@ function HeroSection() {
     <section className="hero">
       <div className="hero-container">
         <h1 className="hero-title">
-          Building a World Driven by <br /> <span>Passion</span>
+          Building a World Driven by <br /> <span>Passion and Purpose</span>
         </h1>
         <p className="hero-subtext">
           Our comprehensive guide to strategies for entrepreneurs and leaders

@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // Pages
 import Home from './pages/Home';
 import ContactUs from './pages/ContactUs';
+import Portfolio from './pages/portfolio';
 
 /**
  * Main App component that renders application routes
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/portfolio" element={<Portfolio />} />
         </Routes>
       </BrowserRouter>
     </div>

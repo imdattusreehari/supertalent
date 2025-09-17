@@ -9,7 +9,7 @@ function Navbar() {
 
         <nav className="nav-links">
           <a href="/">Home</a>
-          <a href="/pages/portfolio">Portfolio</a>
+          <a href="/portfolio">Portfolio</a>
           <a href="/pages/portfolio">Resources</a>
           <a href="/pages/portfolio">About Us</a>
           <a href="/contact-us">Contact Us</a>

@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import ContactUs from './pages/ContactUs';
 import Portfolio from './pages/portfolio';
+import Services from './pages/Services';
 
 /**
  * Main App component that renders application routes
@@ -18,6 +19,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/portfolio" element={<Portfolio />} />
         </Routes>

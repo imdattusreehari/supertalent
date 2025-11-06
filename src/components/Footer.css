@@ -42,16 +42,15 @@
   font-size: 1.5rem;
   color: #b100a1;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-  margin-left: 25rem;
 }
 
 .send-label {
   margin-top: 12px;
-  display: inline-block;
+  display: block;
+  text-align: center;
   font-size: 1rem;
   color: #b100a1;
   font-weight: 500;
-  margin-left: 22.5rem;
 }
 
 .footer-bottom {
@@ -105,4 +104,28 @@
 
 .footer-nav a:hover {
   opacity: 0.8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer-cta {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cta-left p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .footer-nav {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }

@@ -90,3 +90,19 @@
 .hero-images-adjust {
   margin-top: 2rem;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.1rem;
+  }
+
+  .hero-subtext {
+    font-size: 0.95rem;
+  }
+
+  .hero-images img {
+    width: 160px;
+    height: 230px;
+  }
+}
